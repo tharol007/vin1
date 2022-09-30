@@ -8,10 +8,5 @@ pipeline {
                 sh 'node --version'
             }
         }
-        stage('Result') {
-            steps {
-                echo "SUCCESS"
-            }
-        }
     }
 }
